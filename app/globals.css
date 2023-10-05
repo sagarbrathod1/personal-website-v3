@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.white-text {
+  color: white;
+}
+
+.green-text {
+  color: green;
+}
