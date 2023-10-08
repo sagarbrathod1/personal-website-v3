@@ -9,3 +9,7 @@
 .green-text {
   color: green;
 }
+
+html {
+  --line-color: #e5e7eb;
+}
