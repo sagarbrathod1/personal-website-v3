@@ -52,7 +52,7 @@ export const projectsData = [
   {
     title: "Automated Resume Parser",
     description:
-      "Upload/Server/Dashboard app where applicants can upload their resumes and recruiters can search for specific candidates.",
+      "Upload/Server/Dashboard app where applicants can upload their resumes and recruiters can search for qualified candidates.",
     tags: ["React", "Redux", "Node", "Multer", "Tailwind CSS"],
     imageUrl: reactImg,
     link: "https://github.com/sagarbrathod1/resume-parser",

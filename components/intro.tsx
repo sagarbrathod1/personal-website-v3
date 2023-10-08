@@ -65,6 +65,7 @@ export default function Intro() {
           className="bg-slate-300 p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition borderBlack"
           href="https://www.linkedin.com/in/sagarbrathod1/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <BsLinkedin />
         </a>
@@ -73,6 +74,7 @@ export default function Intro() {
           className="bg-slate-300 p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition borderBlack text-[1.35rem] hover:text-gray-950 "
           href="https://github.com/sagarbrathod1"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FaGithubSquare />
         </a>

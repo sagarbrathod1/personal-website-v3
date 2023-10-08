@@ -8,6 +8,8 @@ export default function Footer() {
         <a
           className="underline"
           href="https://personal-website-v1-sagarbrathod1.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Previous Website
         </a>
