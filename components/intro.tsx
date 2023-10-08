@@ -33,16 +33,17 @@ export default function Intro() {
         </div>
       </div>
       <motion.h1
-        className="white-text mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-2xl"
+        className="white-text mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5]"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">↣ Hi, I'm Sagar! </span>
-        <br />
-        ↣ Current: Software Engineer @ Atomic Object. <br />
-        ↣ Previous: Senior Manager (Business Ops @ IT Staffing) and Research
-        Scientist (SCAs & HIV-1). <br />↣ Michigan State Grad.{" "}
-        <span className="green-text">Go Green!</span>
+        <span>↣ Hi, I'm Sagar! 👋🏾</span>
+        <br />↣ <span className="underline">Current</span>: Software Engineer @
+        Atomic Object. <br />↣ <span className="underline">Previous</span>:
+        Senior Manager{" "}
+        <span className="italic">(Business Ops @ IT Staffing)</span> & Research
+        Scientist <span className="italic">(SCAs & HIV-1)</span>.<br />↣
+        Michigan State Grad. <span className="green-text">Go Green!</span>
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -52,12 +53,6 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        {/* <Link
-          href="#contact"
-          className="group bg-slate-300 px-7 py-3 flex items-center gap-2 rounded-full"
-        >
-          Contact Me
-        </Link> */}
         <a
           href="https://github.com/sagarbrathod1/resume/blob/main/Resume%20-%20Sagar%20Rathod.pdf/"
           target="_blank"
