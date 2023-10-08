@@ -9,10 +9,6 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
-    hash: "#about",
-  },
-  {
     name: "Projects",
     hash: "#projects",
   },
@@ -58,4 +54,27 @@ export const projectsData = [
     tags: ["Python", "Pygame"],
     imageUrl: spaceInvadersImg,
   },
+] as const;
+
+export const skillsData = [
+  "Python",
+  "TypeScript",
+  "JavaScript",
+  "React",
+  "React Native",
+  "Expo",
+  "Next.js",
+  "Node.js",
+  "HTML/CSS",
+  "Java",
+  "C++",
+  "Go",
+  "Swift",
+  "Git",
+  "AWS",
+  "MongoDB",
+  "PostgreSQL",
+  "GraphQL",
+  "Docker",
+  "Google Firebase",
 ] as const;
