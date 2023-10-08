@@ -30,6 +30,7 @@ export const projectsData = [
     description: "Race Me.",
     tags: ["TypeScript", "Next.js", "Supabase", "Tailwind CSS"],
     imageUrl: typeFastImg,
+    link: "https://racer-typer.vercel.app/",
   },
   {
     title: "Brand AI",
@@ -37,6 +38,7 @@ export const projectsData = [
       "AI SaaS app to generate upbeat snippets and SEO keywords for businesses/brands.",
     tags: ["Python", "AWS", "OpenAI", "TypeScript", "Next.js"],
     imageUrl: openAIImg,
+    link: "https://brandai.vercel.app/",
   },
   {
     title: "Automated Resume Parser",
@@ -44,6 +46,7 @@ export const projectsData = [
       "Upload/Server/Dashboard app where applicants can upload their resumes and recruiters can search for specific candidates.",
     tags: ["React", "Redux", "Node", "Multer", "Tailwind CSS"],
     imageUrl: reactImg,
+    link: "https://github.com/sagarbrathod1/resume-parser",
   },
   {
     title: "Space Invaders",
@@ -51,6 +54,7 @@ export const projectsData = [
       "Space Invaders with object-oriented design. Created a user-controlled spaceship, AI enemies, bullets, health tracking, and scorekeeping.",
     tags: ["Python", "Pygame"],
     imageUrl: spaceInvadersImg,
+    link: "https://github.com/sagarbrathod1/space-invaders",
   },
 ] as const;
 
