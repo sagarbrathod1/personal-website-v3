@@ -5,7 +5,10 @@ export default function Footer() {
     <footer className="mb-10 px-4 text-center text-gray-500">
       <small className="mb-2 block text-xs">
         &copy; Sagar Rathod's Website |{" "}
-        <a className="underline" href="https://sagarrathod.site/">
+        <a
+          className="underline"
+          href="https://personal-website-v1-sagarbrathod1.vercel.app/"
+        >
           Previous Website
         </a>
       </small>
