@@ -3,7 +3,16 @@ import reactImg from "@/public/react.png";
 import spaceInvadersImg from "@/public/spaceinvaders.png";
 import typeFastImg from "@/public/type-fast.png";
 import React from "react";
-import { FaReact } from "react-icons/fa";
+import {
+  FaAws,
+  FaBuilding,
+  FaBusinessTime,
+  FaDatabase,
+  FaNotesMedical,
+  FaReact,
+  FaRegBuilding,
+  FaSchool,
+} from "react-icons/fa";
 
 export const links = [
   {
@@ -87,14 +96,14 @@ export const experiencesData = [
     location: "Ann Arbor, MI",
     description:
       "Studied Spinocerebellar Ataxias at the University of Michigan.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaSchool),
     date: "Jul. 2013",
   },
   {
     title: "Research Scientist",
     location: "East Lansing, MI",
     description: "Studied HIV at Michigan State University.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaNotesMedical),
     date: "Jun. 2015",
   },
   {
@@ -102,7 +111,7 @@ export const experiencesData = [
     location: "Okemos, MI",
     description:
       "Managed a real estate investment portfolio. Conducted market research and financial analysis to identify investment opportunities, resulting in a 200% increase in returns.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaRegBuilding),
     date: "Jan. 2017",
   },
   {
@@ -110,7 +119,7 @@ export const experiencesData = [
     location: "Detroit, MI",
     description:
       "Managed a technology staffing and consulting company that provided contract, contract-to-hire, and permanent staff augmentation services to Fortune 500 companies, local municipalities, and federal government agencies.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaBuilding),
     date: "May 2018",
   },
   {
@@ -118,7 +127,7 @@ export const experiencesData = [
     location: "Detroit, MI",
     description:
       "Expanded the staffing company from 3 to 21 employees. Secured contracts to place over 50 skilled software developers and IT specialists.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaBusinessTime),
     date: "Jan. 2020",
   },
   {
@@ -126,7 +135,7 @@ export const experiencesData = [
     location: "NYC, NY",
     description:
       "Built features for an e-learning platform (w/ JavaScript, React, and AWS). Deployed serverless APIs (w/ AWS Lambda and DynamoDB).",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaAws),
     date: "Jun. 2022",
   },
   {
@@ -134,14 +143,14 @@ export const experiencesData = [
     location: "Remote",
     description:
       "Developed an omnichannel customer service platform (w/ React, JavaScript, MongoDB, Express.js, and Google Firebase). Implemented an AI chatbot. Won 2nd place in the final project showcase.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaDatabase),
     date: "Aug. 2022",
   },
   {
     title: "Software Engineer @ Atomic Object",
     location: "Ann Arbor, MI",
     description:
-      "Spearheaded the migration of an iOS app to React Native (w/ TypeScript, Expo, Redux, and Google Firebase). Developed an Electronic Lab Notebook (w/ Python, Flask, MongoDB, AngularJS, and Docker). Optimized an internal accounting app (w/ Ruby and Sinatra). Practice Agile and managed Jira backlogs.",
+      "Spearheaded the migration of an iOS app to React Native (w/ TypeScript, Expo, Redux, and Google Firebase). Developed an Electronic Lab Notebook (w/ Python, Flask, MongoDB, AngularJS, and Docker). Optimized an internal accounting app (w/ Ruby and Sinatra). Practiced Agile and managed Jira backlogs.",
     icon: React.createElement(FaReact),
     date: "Feb. 2023",
   },
