@@ -1,8 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
-import React from "react";
 import { links } from "@/lib/data";
+import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function Header() {
