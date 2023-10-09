@@ -12,7 +12,7 @@ import { FaReact } from "react-icons/fa";
 
 export default function Experinece() {
   return (
-    <section className="mb-28 sm:mb-40">
+    <section className="mb-28 sm:mb-40 scroll-mt-28" id="experience">
       <SectionHeading>My Experience</SectionHeading>
       <VerticalTimeline lineColor="" layout="2-columns" animate={true}>
         {experiencesData.map((item, index) => (
