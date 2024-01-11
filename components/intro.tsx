@@ -57,7 +57,7 @@ export default function Intro() {
         }}
       >
         <a
-          href="https://github.com/sagarbrathod1/resume/blob/main/Resume%20-%20Sagar%20Rathod.pdf/"
+          href="https://drive.google.com/file/d/1-gHiMc8c_GaUDk-OGD9MY1I9yoGLw-VA/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-red-600 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-green-500 active:scale-105 transition borderBlack"

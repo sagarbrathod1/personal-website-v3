@@ -2,6 +2,7 @@ import openAIImg from "@/public/openai-avatar.png";
 import reactImg from "@/public/react.png";
 import spaceInvadersImg from "@/public/spaceinvaders.png";
 import typeFastImg from "@/public/type-fast.png";
+import talk2pdfImg from "@/public/talk-2-pdf.png";
 import React from "react";
 import {
   FaAws,
@@ -34,6 +35,21 @@ export const links = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Talk to your PDF",
+    description: "AI-powered conversations with PDFs",
+    tags: [
+      "TypeScript",
+      "Next.js",
+      "AWS",
+      "NeonDB",
+      "DrizzleORM",
+      "PineconeDB",
+      "OpenAI",
+    ],
+    imageUrl: talk2pdfImg,
+    link: "https://talk-to-your-pdf.vercel.app/",
+  },
   {
     title: "Typer Racer",
     description: "Race Me.",
