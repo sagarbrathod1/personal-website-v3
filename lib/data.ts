@@ -166,7 +166,7 @@ export const experiencesData = [
     title: "Software Engineer @ Atomic Object",
     location: "Ann Arbor, MI",
     description:
-      "Spearheaded the migration of an iOS app to React Native (w/ TypeScript, Expo, Redux, and Google Firebase). Developed an Electronic Lab Notebook (w/ Python, Flask, MongoDB, AngularJS, and Docker). Optimized an internal accounting app (w/ Ruby and Sinatra). Practiced Agile and managed Jira backlogs.",
+      "Developed a greenfield iOS app for a real-estate company (w/ Swift and SwiftUI). Architected a Property Management System (w/ Kotlin, Micronaut, and NATS). Developed an interactive UI for data visualization of property data (w/ Next.js and TypeScript). Spearheaded the migration of an iOS app to React Native (w/ TypeScript, Expo, Redux, and Google Firebase). Developed an Electronic Lab Notebook (w/ Python, Flask, MongoDB, AngularJS, and Docker).",
     icon: React.createElement(FaReact),
     date: "Feb. 2023",
   },
