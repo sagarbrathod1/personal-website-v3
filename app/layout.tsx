@@ -1,9 +1,10 @@
-import Footer from "@/components/footer";
+import Script from "next/script";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
-
+import Footer from "@/components/footer";
+import CatToggle from "@/components/cat-toggle";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -24,6 +25,8 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <CatToggle />
+        <Script src="/oneko.js" strategy="afterInteractive" />
       </body>
     </html>
   );
