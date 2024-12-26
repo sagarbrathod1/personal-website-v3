@@ -93,17 +93,16 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "HTML/CSS",
+  "Kotlin",
   "Java",
-  "C++",
   "Go",
   "Swift",
   "Git",
   "AWS",
-  "MongoDB",
-  "PostgreSQL",
-  "GraphQL",
+  "GCP",
   "Docker",
-  "Google Firebase",
+  "Kubernetes",
+  "Firebase",
 ] as const;
 
 export const experiencesData = [
@@ -166,7 +165,7 @@ export const experiencesData = [
     title: "Software Engineer @ Atomic Object",
     location: "Ann Arbor, MI",
     description:
-      "Developed a greenfield iOS app for a real-estate company (w/ Swift and SwiftUI). Architected a Property Management System (w/ Kotlin, Micronaut, and NATS). Developed an interactive UI for data visualization of property data (w/ Next.js and TypeScript). Spearheaded the migration of an iOS app to React Native (w/ TypeScript, Expo, Redux, and Google Firebase). Developed an Electronic Lab Notebook (w/ Python, Flask, MongoDB, AngularJS, and Docker).",
+      "Architected a Property Management System (w/ Kotlin, Micronaut, and NATS). Developed a greenfield iOS app for a real-estate company (w/ Swift and SwiftUI). Developed an interactive UI for data visualization of property data (w/ Next.js and TypeScript). Spearheaded the migration of an iOS app to React Native (w/ TypeScript, Expo, Redux, and Google Firebase). Developed an Electronic Lab Notebook (w/ Python, Flask, MongoDB, AngularJS, and Docker).",
     icon: React.createElement(FaReact),
     date: "Feb. 2023",
   },

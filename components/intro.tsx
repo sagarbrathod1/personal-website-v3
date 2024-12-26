@@ -6,8 +6,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
+import BreathingText from "./breathing-text";
+import LetterSwapForward from "./letter-swap-forward";
+import Typewriter from "./typewriter";
+import { useState } from "react";
 
 export default function Intro() {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <section
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
@@ -40,13 +46,33 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span>↣ Hi, I'm Sagar! 👋🏾</span>
-        <br />↣ <span className="underline">Current</span>: Software Engineer @
-        Atomic Object. <br />↣ <span className="underline">Previous</span>:
-        Senior Manager{" "}
-        <span className="italic">(Business Ops @ IT Staffing)</span> & Research
-        Scientist <span className="italic">(SCAs & HIV-1)</span>.<br />↣
-        Michigan State Grad. <span className="green-text">Go Green!</span>
+        <BreathingText
+          label="Hi, I'm Sagar!"
+          staggerDuration={0.1}
+          fromFontVariationSettings="'wght' 100, 'slnt' 0"
+          toFontVariationSettings="'wght' 800, 'slnt' -10"
+        />
+        <LetterSwapForward
+          label="Current: Software Engineer @ Atomic Object"
+          reverse={true}
+        />
+        <span>{"Previous: "}</span>
+        <Typewriter
+          text={["Senior Manager @ IT Staffing", "Research Scientist (SCAs and HIV-1)", "Policy Debate Coach"]}
+          speed={70}
+          waitTime={1500}
+          deleteSpeed={40}
+          cursorChar={"_"}
+        />
+        <br />
+        Michigan State Grad.{" "}
+        <span 
+          className={`${isHovered ? 'text-white' : 'green-text'} cursor-pointer transition-colors duration-300`}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+        >
+          Go {isHovered ? "White!" : "Green!"}
+        </span>
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
